@@ -1,0 +1,34 @@
+{
+    "name": "clash-rule-set-flatten",
+    "version": "0.0.1",
+    "description": "flatten rule set in clash configuration",
+    "main": "index.js",
+    "dependencies": {
+        "js-yaml": "^3.14.0",
+        "micro": "^9.3.5-canary.3",
+        "node-fetch": "^2.6.1",
+        "proxy-agent": "^4.0.0"
+    },
+    "devDependencies": {
+        "prettier": "^2.1.2"
+    },
+    "scripts": {
+        "start": "micro ",
+        "format": "prettier --write **/*.{js,json}",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/fengkx/clash-rule-set-flatten.git"
+    },
+    "keywords": [
+        "clash",
+        "clash-config"
+    ],
+    "author": "fengkx",
+    "license": "AGPL-3.0",
+    "bugs": {
+        "url": "https://github.com/fengkx/clash-rule-set-flatten/issues"
+    },
+    "homepage": "https://github.com/fengkx/clash-rule-set-flatten#readme"
+}
